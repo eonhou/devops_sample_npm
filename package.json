@@ -1,0 +1,20 @@
+{
+  "name": "devops_sample_npm",
+  "version": "1.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-rsa": "^1.1.1",
+    "qr-image": "^3.2.0",
+    "devops_nexus": "1.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.23.105:13004/repository/npm-hosted/"
+  }
+}
